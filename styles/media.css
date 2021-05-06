@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+  /* Top header & menu */
+
+  .main-header {
+    max-width: 1800px;
+    margin: 10px auto 0px;
+  }
+
+  .menu {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  label[for="hamburger-menu"] {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background: inherit;
+    padding-right: 30px;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .searchbox {
+    margin-bottom: 0px;
+  }
+
+  /* Footer */
+
+  .footer-details {
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1800px;
+    margin: 0px auto;
+  }
+}

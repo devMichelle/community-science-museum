@@ -1,0 +1,15 @@
+:root {
+  /* colors */
+  --white: #fefaf6;
+  --red: #7e263c;
+  --orange: #e07e56;
+  --green: #2b4443;
+  --dark-green: #001f1e;
+  --light-green: #546968;
+
+  /* text styles - apply to font-property */
+  --large-header: 800 2.3em "barlow";
+  --medium-header: 600 1.8em "barlow";
+  --small-header: 500 1.15em "barlow";
+  --link: italic 600 1em "barlow";
+}
