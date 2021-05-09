@@ -146,6 +146,7 @@ input[type="email"] {
   padding: 10px 30px;
   max-width: 165px;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition-duration: 0.3s;
 }
