@@ -1,5 +1,26 @@
+@media (min-width: 500px) {
+  /* Visit-page - 500px */
+  .visit-info-spes {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    margin: 0px auto;
+  }
+
+  .map-img {
+    max-width: 70vh;
+  }
+
+  .admission,
+  .visit-details {
+    max-width: 500px;
+    margin: 20px auto 100px;
+  }
+}
+
 @media (min-width: 700px) {
-  /* Top header & menu */
+  /* Top header & menu 
+  ___________________________________*/
 
   .main-header {
     max-width: 1800px;
@@ -32,12 +53,323 @@
     margin-bottom: 0px;
   }
 
-  /* Footer */
+  /* Footer 
+  ___________________________________*/
 
   .footer-details {
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 1800px;
     margin: 0px auto;
+  }
+
+  /* Featured items - 700px
+  ___________________________________*/
+  .featured-text-s {
+    height: 35vh;
+    max-width: 67vh;
+    padding: 50px 30px 100px;
+  }
+
+  .featured-text-m {
+    min-height: 55vh;
+    padding: 50px 30px 100px;
+  }
+
+  .featured-text-l {
+    height: 65vh;
+    padding: 50px 30px 100px;
+  }
+
+  .kids {
+    grid-area: kids;
+  }
+  .teacher {
+    grid-area: teacher;
+  }
+  .scientist {
+    grid-area: scientist;
+  }
+
+  .featured-content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+    justify-content: center;
+    grid-template-areas:
+      "kids kids"
+      "teacher scientist";
+  }
+
+  /* Home - 700px 
+  ___________________________________*/
+
+  .home-introtext h1 {
+    max-width: 550px;
+  }
+
+  .home-introtext {
+    margin: 0px 30px;
+  }
+
+  /* Page-header's - 700px 
+  ___________________________________*/
+
+  .home-header,
+  .gi-header,
+  .explore-header,
+  .learning-header {
+    min-height: 30vh;
+    margin-bottom: 50px;
+  }
+
+  .home-header p,
+  .explore-header h1,
+  .learning-header h1 {
+    padding: 10px 20px;
+    margin: 120px 30px 0px;
+  }
+
+  .gi-header h1 {
+    padding: 10px 20px;
+  }
+
+  /* Contact - 700px 
+  ___________________________________*/
+
+  .contact-content {
+    min-width: 700px;
+    margin: 0px auto;
+  }
+
+  /* Visit-page - 700px 
+  ___________________________________*/
+
+  .visit-info {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .visit-info-spes {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    min-width: 200px;
+  }
+
+  .map-img {
+    max-height: 43vh;
+    margin-top: 30px;
+  }
+
+  .admission,
+  .visit-details {
+    max-width: 600px;
+    margin: 40px auto 100px;
+  }
+}
+
+@media (min-width: 1050px) {
+  /* Home - 1050px 
+  ___________________________________*/
+  .home-introtext {
+    max-width: 1050px;
+    margin: 0px auto;
+  }
+
+  /* Get involved - 1050px 
+  ___________________________________*/
+
+  .gi-content {
+    display: flex;
+    gap: 40px;
+  }
+  .gi-spesifics {
+    padding: 0px 30px 50px;
+  }
+
+  .gi-spesifics a {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* featured items- 1600px 
+  ___________________________________*/
+
+  .featured-content {
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+    grid-template-areas: "kids teacher scientist";
+  }
+  .featured-text-m {
+    min-height: 67vh;
+  }
+
+  .featured-text-l {
+    height: 55vh;
+  }
+
+  /* Home - 1200px 
+  ___________________________________*/
+
+  .home-header {
+    background-position-y: 38%;
+  }
+
+  .home-introtext h1 {
+    max-width: 800px;
+  }
+
+  .home-icons,
+  .home-events {
+    max-width: 1600px;
+    margin: 50px 40px;
+  }
+
+  /* Page-header - 1200px 
+  ___________________________________*/
+  .home-header,
+  .gi-header,
+  .explore-header,
+  .learning-header {
+    min-height: 45vh;
+    margin-bottom: 75px;
+  }
+
+  .home-header p,
+  .gi-header h1,
+  .explore-header h1,
+  .learning-header h1 {
+    padding: 20px 40px;
+    margin: 200px 60px 0px;
+  }
+
+  /* Contact - 1200px 
+  ___________________________________*/
+
+  .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 1200px;
+  }
+
+  .contact-form {
+    min-width: 600px;
+    margin: 17.5px 0px 0px 40px;
+  }
+
+  /* Visit-page - 1200px */
+
+  .visit {
+    display: grid;
+    grid-template-areas: "visitinfo admission";
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    gap: 40px;
+  }
+
+  .visit-info {
+    grid-area: visitinfo;
+  }
+
+  .admission {
+    grid-area: admission;
+    max-width: 500px;
+  }
+
+  .visit-details {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .details-spesifics {
+    margin: 10px 30px 100px;
+    width: 310px;
+  }
+
+  .admission,
+  .visit-details {
+    margin: 0px auto;
+  }
+
+  .visit,
+  .visit-details {
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* Page-header's - 1600px 
+  ___________________________________*/
+  .home-header,
+  .gi-header,
+  .learning-header,
+  .explore-header {
+    min-height: 55vh;
+  }
+
+  .home-header p,
+  .explore-header h1,
+  .gi-header h1,
+  .learning-header h1 {
+    padding: 40px 80px;
+    margin: 300px 200px 0px;
+  }
+
+  /* featured items - 1600px 
+  ___________________________________*/
+
+  .featured-content,
+  .gi-content {
+    margin: 100px auto;
+    max-width: 1800px;
+  }
+
+  .featured-text-m {
+    min-height: 55vh;
+    padding: 50px 50px 100px;
+  }
+
+  .featured-text-l {
+    height: 45vh;
+  }
+
+  /* Home - 1600px 
+  ___________________________________*/
+  .home-header {
+    background-position-x: center;
+    background-position-y: 35%;
+  }
+
+  .home-icons,
+  .home-events {
+    max-width: 1600px;
+    margin: 100px auto;
+  }
+}
+
+@media (min-width: 2600px) {
+  /* Page-header's - 2600px 
+  ___________________________________*/
+  .home-header p,
+  .explore-header h1,
+  .gi-header h1,
+  .learning-header h1 {
+    margin: 300px 400px 0px;
+  }
+}
+
+@media (min-width: 3000px) {
+  /* Page-header's - 3000px 
+  ___________________________________*/
+  .home-header p,
+  .explore-header h1,
+  .gi-header h1,
+  .learning-header h1 {
+    padding: 40px 80px;
+    margin: 400px 800px 0px;
   }
 }

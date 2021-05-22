@@ -1,0 +1,37 @@
+.gi-header {
+  background-image: url(../images/museum-building.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 20vh;
+}
+
+.gi-header h1 {
+  color: var(--white);
+  background-color: rgba(126, 38, 60, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  float: right;
+  margin: 100px 30px 5px;
+}
+
+.gi-content {
+  margin: 50px 30px 100px;
+}
+
+.gi-spesifics {
+  border-style: solid;
+  border-color: var(--red);
+  padding: 0px 15px 70px;
+  margin-bottom: 20px;
+}
+.gi-spesifics a {
+  float: right;
+}
+
+.solid-bg {
+  background-color: var(--red);
+  color: var(--white);
+}

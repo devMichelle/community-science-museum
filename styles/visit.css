@@ -1,0 +1,44 @@
+main {
+  margin: 0px 15px;
+}
+
+.visit-header h1 {
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  margin: 40px 0px 0px;
+}
+
+.map {
+  text-align: center;
+}
+
+.map-img {
+  width: 52vh;
+  height: 43vh;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0px;
+}
+
+.admission a {
+  margin: 20px 0px 40px;
+}
+
+.visit-details {
+  margin: 80px 0px 100px;
+}
+
+.visit-icon {
+  color: var(--orange);
+  text-align: center;
+  margin-top: 40px;
+}

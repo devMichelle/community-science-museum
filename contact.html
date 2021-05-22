@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join us at the Community Science Museum where we’re committed to making science accessible to all">
-    <title>Community Science Museum | Home</title>
+    <meta name="description" content="Contact us at the Community Science Museum, we would love to hear from you">
+    <title>Community Science Museum | Contact</title>
     <link href="styles/styles.css" rel="stylesheet">
-    <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/contact.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
     <link href="images/icon-logo.png" rel="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,49 +30,54 @@
                     </ul>
                 </nav>
                 <div class="searchbox">
-                <label for="search"><i class="fas fa-search"></i></label>
-                <input type="search" id="search" name="search">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                    <input type="search" id="search" name="search">
                 </div>
             </div>
         </div>
     </header>
-    <main>
+    <main class="contact-content">
         <section>
             <h1>Contact us</h1>
-            <div>
-                <p>Community Science Museum</p>
-                <p>Museumsgata 1</p>
-                <p>3210 Sandefjord</p>
-                    
-                <p>Phone: +00 555 11 333</p>
-                <p>Email: info@csm.com</p>
+            <div class="contact-info">
+                <div>
+                    <p>Community Science Museum</p>
+                    <p>Museumsgata 1</p>
+                    <p>3210 Sandefjord</p>
+                </div>
+                <div class="text-break">
+                    <p>Phone: +00 555 11 333</p>
+                    <p>Email: info@csm.com</p>
+                </div> 
             </div>
         </section>
-        <section>
+        <section class="contact-form">
             <h2>Contactform</h2>
-            <div>
-                <div>
-                    <label for="first-name">Name*</label>
-                    <input type="text" name="first-name" id="first-name" required>
+            <form action="#" method="POST">
+                <div class="form-wrapper">
+                    <div class="form-item">
+                        <label for="first-name" class="form-label">Name*</label>
+                        <input type="text" name="first-name" id="first-name" class="textbox" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email" class="form-label">Email*</label>
+                        <input type="email" name="email" id="email" class="textbox" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="tel" class="form-label">Phone number</label>
+                        <input type="tel" name="tel" id="tel" class="textbox">
+                    </div>
+                    <div class="form-item">
+                        <label for="subject" class="form-label">Subject*</label>
+                        <input type="text" name="subject" id="subject" class="textbox" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" id="message" class="textbox textarea" placeholder="Write your message here.."></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="cta">
                 </div>
-                <div>
-                    <label for="email">Email*</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="tel">Phone number</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
-                <div>
-                    <label for="subject">Subject*</label>
-                    <input type="text" name="subject" id="subject" required>
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Write your message here.."></textarea>
-                </div>
-                <input type="submit" value="Send" class="cta">
-            </div>
+            </form>
         </section>
     </main>
     <footer>

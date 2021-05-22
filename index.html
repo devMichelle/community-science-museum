@@ -30,18 +30,19 @@
                     </ul>
                 </nav>
                 <div class="searchbox">
-                <label for="search"><i class="fas fa-search"></i></label>
-                <input type="search" id="search" name="search">
+                    <label for="search"><i class="fas fa-search fa-lg"></i></label>
+                    <input type="search" id="search" name="search">
                 </div>
             </div>
         </div>
     </header>
     <main>
         <section>
-            <div>
-                <h1>At the Community Science Museum we’re committed to making science accessible to all. <span>Come join us!</span></h1>
+            <div class="home-header">
+                <p>Come join us!</p>
             </div>
-            <div>
+            <div class="home-introtext">
+                <h1>At the Community Science Museum we’re committed to making science accessible to all.</h1>
                 <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
 
                 <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
@@ -53,38 +54,46 @@
                 </p>
             </div>
         </section>
-        <section>
-            <a href="#" class="test"><i class="fas fa-user-astronaut"></i></a>
-            <a href="#" class="test"><i class="fas fa-ticket-alt"></i></i></a>
-            <a href="#" class="test"><i class="far fa-calendar-alt"></i></i></a>
+        <section class="home-icons">
+            <a href="tickets.html" class="icon-circle"><i class="fas fa-ticket-alt"></i></a>
+            <a href="#" class="icon-circle icon-wide"><i class="fas fa-user-astronaut"></i></a>
+            <a href="#events" class="icon-circle icon-wide"><i class="far fa-calendar-alt"></i></a>
         </section>
-        <section>
-            <h2>
+        <section class="home-events">
+            <h2 id="events" class="events-header">
                 Special events and exhibitions
             </h2>
-            <div>
-                <img src="images/aeronautics.jpg" alt="picture of austonaut in a spaceship simulator">
-                <h3>Visiting professor of aeronautics</h3>
-                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                <a href="#" class="text-link">Learn more</a>
-            </div>
-            <div>
-                <img src="images/museum-night.jpg" alt="picture of mammoth in the museum at night with one person infront">
-                <h3>Night in the Museum</h3>
-                <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
+            <div class="featured-content">
+                <div>
+                    <img src="images/aeronautics.jpg" class="featured-img" alt="picture of austonaut in a spaceship simulator">
+                    <div class="featured-text green featured-text-s">
+                        <h3>Visiting professor of aeronautics</h3>
+                        <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                        <a href="#" class="text-link">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/museum-night.jpg" class="featured-img" alt="picture of mammoth in the museum at night with one person infront">
+                    <div class="featured-text orange featured-text-s">
+                        <h3>Night in the Museum</h3>
+                        <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
 
-                <p>Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
-                </p>
-                <a href="#" class="text-link">Learn more</a>
-            </div>
-            <div>
-                <img src="images/solarpanel.jpg" alt="picture of solarpanels">
-                <h3>Energetica Exhibition on Loan</h3>
-                <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them.</p>
-                <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.
-                </p>
-                <a href="#" class="text-link">Learn more</a>
-            </div>
+                        <p>Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
+                        </p>
+                        <a href="#" class="text-link">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/solarpanel.jpg" class="featured-img" alt="picture of solarpanels">
+                    <div class="featured-text red featured-text-s">
+                        <h3>Energetica Exhibition on Loan</h3>
+                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them.</p>
+                        <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.
+                        </p>
+                        <a href="#" class="text-link">Learn more</a>
+                    </div>
+                </div>
+        </div>
         </section>
     </main>
     <footer>

@@ -1,0 +1,196 @@
+/* all pages except home-page gathered
+___________________________________*/
+
+/* Visit-page
+___________________________________*/
+
+main {
+  margin: 0px 15px;
+}
+
+.visit-header h1 {
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  margin: 40px 0px 0px;
+}
+
+.map {
+  text-align: center;
+}
+
+.map-img {
+  width: 52vh;
+  height: 43vh;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0px;
+}
+
+.admission a {
+  margin: 20px 0px 40px;
+}
+
+.visit-details {
+  margin: 80px 0px 100px;
+}
+
+.visit-icon {
+  color: var(--orange);
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Explore-page
+___________________________________*/
+
+.explore-header {
+  background-image: url(../images/exhibition.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 20vh;
+}
+
+.explore-header h1 {
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  float: left;
+  margin: 100px 30px 5px;
+}
+
+.exhibition {
+  padding: 50px 15px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+/* Learning-page
+___________________________________*/
+
+.learning-header {
+  background-image: url(../images/learning-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25%;
+  min-height: 20vh;
+}
+
+.learning-header h1 {
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  float: right;
+  margin: 100px 30px 5px;
+}
+
+/* Contact-page
+___________________________________*/
+
+.contact-content {
+  padding: 40px 30px 100px;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+.contact-info p {
+  margin: 5px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 3px;
+}
+
+.textbox {
+  padding: 5px;
+}
+
+.textarea {
+  min-height: 15vh;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+/* Get involved-page
+___________________________________*/
+
+.gi-header {
+  background-image: url(../images/museum-building.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 20vh;
+}
+
+.gi-header h1 {
+  color: var(--white);
+  background-color: rgba(126, 38, 60, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  float: right;
+  margin: 100px 30px 5px;
+}
+
+.gi-content {
+  margin: 50px 30px 100px;
+}
+
+.gi-spesifics {
+  border-style: solid;
+  border-color: var(--red);
+  padding: 0px 15px 70px;
+  margin-bottom: 20px;
+}
+.gi-spesifics a {
+  float: right;
+}
+
+.solid-bg {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+/* Tickets-page
+___________________________________*/
+
+.under-construction {
+  margin: 50px auto;
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 50px 10px;
+  text-align: center;
+  border-radius: 11px;
+  margin: 50px 30px 100px;
+}
+
+.under-construction-text {
+  font: var(--small-header);
+}

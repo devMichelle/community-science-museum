@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join us at the Community Science Museum where we’re committed to making science accessible to all">
-    <title>Community Science Museum | Home</title>
+    <meta name="description" content="Visit us at the Community Science Museum for an educational experience.">
+    <title>Community Science Museum | Visit</title>
     <link href="styles/styles.css" rel="stylesheet">
-    <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/visit.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
     <link href="images/icon-logo.png" rel="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,56 +30,65 @@
                     </ul>
                 </nav>
                 <div class="searchbox">
-                <label for="search"><i class="fas fa-search"></i></label>
-                <input type="search" id="search" name="search">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                    <input type="search" id="search" name="search">
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <h1>Visit us</h1>
-        <div>
-            <div>
-                <h2>Location</h2>
-                <p>The museum is located at</p>
-
-                <p>Museumsgata 1</p>
-                <p>3210 Sandefjord</p>
-            </div>
-            <div>
-                <h2>Opening hours</h2>
-                <p>Monday: Closed</p>
-                <p>Tuesday: 10:00 – 16:00</p>
-                <p>Wednesday: 10:00 – 16:00</p>
-                <p>Thursday: 10:00 – 16:00</p>
-                <p>Friday: 10:00 – 19:00</p>
-                <p>Saturday: 9:00 – 16:00</p>
-                <p>Sunday: 9:00 – 13:00</p>
-            </div>
+        <div class="visit-header">
+            <h1>Visit us</h1>
         </div>
-        <div>
-            <h2>Admission</h2>
-            <p>The entrance is free for all.</p> 
+        <section class="visit">
+            <div class="visit-info">
+                <div class="map">
+                    <a href="https://www.google.no/maps/place/Museumsgata+1,+3210+Sandefjord/@59.1279887,10.2285351,17z/data=!3m1!4b1!4m5!3m4!1s0x4646c09b3e905d41:0xe40d9ae49da21d07!8m2!3d59.1279887!4d10.2307238" target="_blank" rel="noreferrer noopener"><img src="images/google-maps.PNG" alt="map showing the location of the museum" class="map-img"></a>
+                </div>
+                <div class="visit-info-spes">
+                    <div>
+                        <h2>Location</h2>
+                        <p>The museum is located at</p>
 
-            <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p> 
-                
-            <p>If you would like to organize a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-            <a href="contact.html" class="cta">Contact</a>
-        </div>
-        <div>    
-            <div>
-                <i class="fab fa-accessible-icon"></i>
+                        <p class="text-break">Museumsgata 1</p>
+                        <p>3210 Sandefjord</p>
+                    </div>
+                    <div>
+                        <h2>Opening hours</h2>
+                        <p>Monday: Closed</p>
+                        <p>Tuesday: 10:00 – 16:00</p>
+                        <p>Wednesday: 10:00 – 16:00</p>
+                        <p>Thursday: 10:00 – 16:00</p>
+                        <p>Friday: 10:00 – 19:00</p>
+                        <p>Saturday: 9:00 – 16:00</p>
+                        <p>Sunday: 9:00 – 13:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="admission">
+                <h2>Admission</h2>
+                <p>The entrance is free for all.</p> 
+
+                <p class="text-break">There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p> 
+                    
+                <p class="text-break">If you would like to organize a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+                <a href="contact.html" class="cta orange cta-small">Contact</a>
+            </div>
+        </section>
+        <div class="visit-details">
+            <div class="details-spesifics">
+                <p class="visit-icon"><i class="fab fa-accessible-icon fa-5x"></i></p>
                 <h2>Accessibility</h2>
                 <p>The museum has wheelchair accessibility ramps. 
                 It also has audio guides and braille display signs for the visually impaired.</p>
             </div>
-            <div>
-                <i class="fas fa-utensils"></i>
+            <div class="details-spesifics">
+                <p class="visit-icon"><i class="fas fa-utensils visit-icon fa-5x"></i></p>
                 <h2>Food and drink</h2>
                 <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
             </div>
-            <div>
-                <i class="fas fa-shopping-bag"></i>
+            <div class="details-spesifics">
+                <p class="visit-icon"><i class="fas fa-shopping-bag visit-icon fa-5x"></i></p>
                 <h2>Shop</h2>
                 <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
             </div>

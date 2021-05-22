@@ -1,6 +1,7 @@
 @import url(imports/variables.css);
 
-/* Global styles */
+/* Global styles 
+___________________________________*/
 
 body {
   font-family: "Barlow", sans-serif;
@@ -13,7 +14,25 @@ body {
   margin: 0px;
 }
 
-/* Top header & menu */
+h1 {
+  font: var(--large-header);
+}
+
+h2 {
+  font: var(--medium-header);
+  text-transform: uppercase;
+}
+
+.text-break {
+  margin-top: 20px;
+}
+
+.featured-text {
+  padding: 50px 15px;
+}
+
+/* Top header & menu 
+___________________________________*/
 
 .logo {
   max-height: 12vh;
@@ -38,13 +57,12 @@ nav {
   top: 100px;
   background: linear-gradient(
     rgba(84, 105, 104, 0),
-    rgba(84, 105, 104, 0.6),
     rgba(84, 105, 104, 0.8),
-    rgba(84, 105, 104, 0.9),
+    rgba(84, 105, 104, 1),
+    rgba(84, 105, 104, 1),
     rgba(84, 105, 104, 1),
     rgba(84, 105, 104, 1)
   );
-  /* background: var(--light-green); */
   z-index: 1000;
   right: 0px;
 }
@@ -90,6 +108,9 @@ nav li {
   padding: 2px;
 }
 
+/* Header and footer 
+___________________________________*/
+
 header,
 footer {
   background: linear-gradient(to right, var(--dark-green), var(--light-green));
@@ -97,7 +118,8 @@ footer {
   padding: 10px 30px;
 }
 
-/* Footer */
+/* Footer 
+___________________________________*/
 
 .footer-header {
   font: var(--small-header);
@@ -121,15 +143,10 @@ footer {
   max-width: 210px;
 }
 
-input[type="email"] {
-  outline: none;
-  border: none;
-}
-
 .nl-button {
   margin-top: 10px;
   position: relative;
-  left: 95px;
+  left: 92px;
 }
 
 .copyright {
@@ -137,10 +154,41 @@ input[type="email"] {
   margin: 20px 0px 0px;
 }
 
-/* CTA */
+/* Featured items 
+(small image with textbox underneath)
+___________________________________*/
+
+.featured-content {
+  margin: 10px 30px 100px;
+  color: var(--white);
+}
+
+.featured-img {
+  border-radius: 11px;
+  background-size: cover;
+  width: 40vh;
+  height: 27vh;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+}
+
+.featured-text {
+  padding: 50px 15px 100px;
+}
+
+.featured-content a {
+  float: right;
+  margin-top: 30px;
+}
+
+/* CTA 
+___________________________________*/
 
 .cta {
-  background-color: var(--red);
+  display: block;
+  background-color: var(--orange);
   color: var(--white);
   font: var(--medium-header);
   padding: 10px 30px;
@@ -161,7 +209,8 @@ input[type="submit"] {
   border: none;
 }
 
-/* Links */
+/* Links 
+___________________________________*/
 
 .menu-link {
   color: var(--white);
@@ -179,11 +228,12 @@ input[type="submit"] {
   text-decoration: underline;
 }
 
-/* Hover */
+/* Hover 
+___________________________________*/
 
 .cta:hover {
   background-color: var(--white);
-  color: var(--red);
+  color: var(--green);
   border-style: solid;
   border-width: 2px;
 }
@@ -194,4 +244,19 @@ input[type="submit"] {
 
 .text-link:hover {
   font: var(--link);
+}
+
+/* Backgroundcolor
+___________________________________*/
+
+.red {
+  background-color: var(--red);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+.green {
+  background-color: var(--green);
 }

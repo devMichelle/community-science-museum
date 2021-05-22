@@ -1,0 +1,18 @@
+.learning-header {
+  background-image: url(../images/learning-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25%;
+  min-height: 20vh;
+}
+
+.learning-header h1 {
+  color: var(--white);
+  background-color: rgba(43, 68, 67, 0.9);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 11px;
+  float: right;
+  margin: 100px 30px 5px;
+}
