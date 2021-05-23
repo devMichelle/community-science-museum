@@ -1,4 +1,4 @@
-main {
+.visit-us {
   margin: 0px 15px;
 }
 
@@ -20,12 +20,12 @@ main {
   height: 38vh;
 }
 
-h2 {
+.visit-us h2 {
   text-transform: capitalize;
   margin-bottom: 5px;
 }
 
-p {
+.visit-us p {
   margin: 0px;
 }
 

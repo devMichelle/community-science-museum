@@ -4,7 +4,7 @@ ___________________________________*/
 /* Visit-page
 ___________________________________*/
 
-main {
+.visit-us {
   margin: 0px 15px;
 }
 
@@ -26,12 +26,12 @@ main {
   height: 43vh;
 }
 
-h2 {
+.visit-us h2 {
   text-transform: capitalize;
   margin-bottom: 5px;
 }
 
-p {
+.visit-us p {
   margin: 0px;
 }
 
@@ -73,10 +73,6 @@ ___________________________________*/
 
 .exhibition {
   padding: 50px 15px;
-}
-
-h2 {
-  text-transform: uppercase;
 }
 
 /* Learning-page
@@ -133,7 +129,7 @@ ___________________________________*/
   min-height: 15vh;
 }
 
-h2 {
+.contact-form h2 {
   text-transform: capitalize;
 }
 
