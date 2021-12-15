@@ -129,11 +129,12 @@ ___________________________________*/
 .footer-details {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
+  text-align: center;
 }
 
 .footer-details p {
-  margin: 0px 0px 2px;
+  margin: 0px 0px 2px 0px;
 }
 
 .newsletter {
@@ -143,10 +144,37 @@ ___________________________________*/
   max-width: 210px;
 }
 
+.newsletter-container {
+  text-align: left;
+  margin: 10px auto 0px;
+}
+
 .nl-button {
   margin-top: 10px;
   position: relative;
   left: 92px;
+}
+
+footer button {
+  background-color: inherit;
+  color: var(--white);
+  border: none;
+  padding: 0px;
+  margin: 0px auto 5px;
+}
+
+.locationInfoClose,
+.hoursInfoClose,
+.linksInfoClose {
+  display: none;
+  padding: 0px;
+}
+
+.locationSection,
+.hoursSection,
+.linksSection {
+  display: none;
+  padding-bottom: 15px;
 }
 
 .copyright {
@@ -172,6 +200,7 @@ ___________________________________*/
   margin: 0px auto;
   position: relative;
   top: 50px;
+  z-index: 100;
 }
 
 .featured-text {
@@ -183,12 +212,23 @@ ___________________________________*/
   margin-top: 30px;
 }
 
+#text-container {
+  position: relative;
+}
+
+#position-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
 /* CTA 
 ___________________________________*/
 
 .cta {
   display: block;
   background-color: var(--orange);
+  border: 2px solid transparent;
   color: var(--white);
   font: var(--medium-header);
   padding: 10px 30px;
@@ -197,6 +237,7 @@ ___________________________________*/
   text-decoration: none;
   cursor: pointer;
   transition-duration: 0.3s;
+  margin-top: 10px;
 }
 
 .cta-small {
@@ -205,9 +246,9 @@ ___________________________________*/
   padding: 7px;
 }
 
-input[type="submit"] {
-  border: none;
-}
+/* input[type="submit"] {
+  border: 2px transparent;
+} */
 
 /* Links 
 ___________________________________*/
@@ -228,21 +269,30 @@ ___________________________________*/
   text-decoration: underline;
 }
 
+.back-link {
+  color: black;
+  margin: 0px 0px 100px;
+  display: block;
+  text-align: center;
+}
+
 /* Hover 
 ___________________________________*/
 
 .cta:hover {
   background-color: var(--white);
   color: var(--green);
-  border-style: solid;
-  border-width: 2px;
+  border: 2px solid black;
+  /* border-style: solid;
+  border-width: 2px; */
 }
 
 .menu-link:hover {
   text-decoration: underline;
 }
 
-.text-link:hover {
+.text-link:hover,
+.back-link:hover {
   font: var(--link);
 }
 

@@ -1,3 +1,14 @@
+@media (max-width: 700px) {
+  footer button {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  footer button:hover {
+    text-decoration: none;
+  }
+}
+
 @media (min-width: 500px) {
   /* Visit-page - 500px */
   .visit-info-spes {
@@ -62,6 +73,23 @@
     justify-content: space-evenly;
     max-width: 1800px;
     margin: 0px auto;
+    text-align: left;
+  }
+
+  .newsletter-container {
+    margin: 0px;
+  }
+
+  .locationSection,
+  .hoursSection,
+  .linksSection {
+    display: block;
+  }
+
+  .locationInfoClose,
+  .hoursInfoClose,
+  .linksInfoClose {
+    margin: 0px 0px 10px;
   }
 
   /* Featured items - 700px

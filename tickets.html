@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="main-header">
-            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="The Community Science Museum's logo showing three atoms circulate around each other. The logo links back to homepage" class="logo"></a>
             <div class="menu">
                 <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="top-page">
         <div class="under-construction">
             <h1>This page is under construction..</h1>
             <p class="under-construction-text">Meanwhile, check out our <a href="index.html#events" class="text-link">upcoming events and exhibitions!</a></p>
@@ -45,26 +45,35 @@
     <footer>
         <div class="footer-details">
             <div>
-                <p class="footer-header">Location</p>
-                <p>Museumsgata 1</p>
-                <p>3010 Sandefjord</p>
+                <button class="footer-header locationInfo">Location</button>
+                <button class="footer-header locationInfoClose">Location</button>
+                <div class="locationSection">
+                    <p>Museumsgata 1</p>
+                    <p>3010 Sandefjord</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Opening hours</p>
-                <p>Monday: Closed</p>
-                <p>Tuesday: 10:00 – 16:00</p>
-                <p>Wednesday: 10:00 – 16:00</p>
-                <p>Thursday: 10:00 – 16:00</p>
-                <p>Friday: 10:00 – 19:00</p>
-                <p>Saturday: 9:00 – 16:00</p>
-                <p>Sunday: 9:00 – 13:00</p>
+                <button class="footer-header hoursInfo">Opening hours</button>
+                <button class="footer-header hoursInfoClose">Opening hours</button>
+                <div class="hoursSection">
+                    <p>Monday: Closed</p>
+                    <p>Tuesday: 10:00 – 16:00</p>
+                    <p>Wednesday: 10:00 – 16:00</p>
+                    <p>Thursday: 10:00 – 16:00</p>
+                    <p>Friday: 10:00 – 19:00</p>
+                    <p>Saturday: 9:00 – 16:00</p>
+                    <p>Sunday: 9:00 – 13:00</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Links</p>
-                <a href="contact.html" class="text-link">Contact us</a>
-                <a href="get-involved.html" class="text-link">Get involved</a>
+                <button class="footer-header linksInfo">Links</button>
+                <button class="footer-header linksInfoClose">Links</button>
+                <div class="linksSection">
+                    <a href="contact.html" class="text-link">Contact us</a>
+                    <a href="get-involved.html" class="text-link">Get involved</a>
+                </div>
             </div>
-            <div>
+            <div class="newsletter-container">
                 <p class="footer-header">Sign up for our newsletter</p>
                 <div class="newsletter">
                     <label for="newsletter">Your email adress</label>
@@ -75,5 +84,6 @@
         </div>
         <p class="copyright">Copyright &copy; 2021 Community Science Museum</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

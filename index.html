@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join us at the Community Science Museum where we’re committed to making science accessible to all">
+    <meta name="description" content="Join us at the Community Science Museum where we’re committed to making science accessible to all. We have exhibitions that will spark your intrest.">
     <title>Community Science Museum | Home</title>
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/home.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="main-header">
-            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="The Community Science Museum's logo showing three atoms circulate around each other. The logo links back to homepage" class="logo"></a>
             <div class="menu">
                 <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="top-page">
         <section>
             <div class="home-header">
                 <p>Come join us!</p>
@@ -66,59 +66,69 @@
             <div class="featured-content">
                 <div>
                     <img src="images/aeronautics.jpg" class="featured-img" alt="picture of austonaut in a spaceship simulator">
-                    <div class="featured-text green featured-text-s">
+                    <div class="featured-text green featured-text-s" id="text-container">
                         <h3>Visiting professor of aeronautics</h3>
                         <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                        <a href="#" class="text-link">Learn more</a>
+                        <a href="#" class="text-link" id="position-button">Learn more</a>
                     </div>
                 </div>
                 <div>
                     <img src="images/museum-night.jpg" class="featured-img" alt="picture of mammoth in the museum at night with one person infront">
-                    <div class="featured-text orange featured-text-s">
+                    <div class="featured-text orange featured-text-s" id="text-container">
                         <h3>Night in the Museum</h3>
                         <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
 
                         <p>Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
                         </p>
-                        <a href="#" class="text-link">Learn more</a>
+                        <a href="#" class="text-link" id="position-button">Learn more</a>
                     </div>
                 </div>
                 <div>
                     <img src="images/solarpanel.jpg" class="featured-img" alt="picture of solarpanels">
-                    <div class="featured-text red featured-text-s">
+                    <div class="featured-text red featured-text-s" id="text-container">
                         <h3>Energetica Exhibition on Loan</h3>
                         <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them.</p>
                         <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.
                         </p>
-                        <a href="#" class="text-link">Learn more</a>
+                        <a href="#" class="text-link" id="position-button">Learn more</a>
                     </div>
                 </div>
         </div>
         </section>
+        <a href="#top-page" class="back-link">Go back to top</a>
     </main>
     <footer>
         <div class="footer-details">
             <div>
-                <p class="footer-header">Location</p>
-                <p>Museumsgata 1</p>
-                <p>3010 Sandefjord</p>
+                <button class="footer-header locationInfo">Location</button>
+                <button class="footer-header locationInfoClose">Location</button>
+                <div class="locationSection">
+                    <p>Museumsgata 1</p>
+                    <p>3010 Sandefjord</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Opening hours</p>
-                <p>Monday: Closed</p>
-                <p>Tuesday: 10:00 – 16:00</p>
-                <p>Wednesday: 10:00 – 16:00</p>
-                <p>Thursday: 10:00 – 16:00</p>
-                <p>Friday: 10:00 – 19:00</p>
-                <p>Saturday: 9:00 – 16:00</p>
-                <p>Sunday: 9:00 – 13:00</p>
+                <button class="footer-header hoursInfo">Opening hours</button>
+                <button class="footer-header hoursInfoClose">Opening hours</button>
+                <div class="hoursSection">
+                    <p>Monday: Closed</p>
+                    <p>Tuesday: 10:00 – 16:00</p>
+                    <p>Wednesday: 10:00 – 16:00</p>
+                    <p>Thursday: 10:00 – 16:00</p>
+                    <p>Friday: 10:00 – 19:00</p>
+                    <p>Saturday: 9:00 – 16:00</p>
+                    <p>Sunday: 9:00 – 13:00</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Links</p>
-                <a href="contact.html" class="text-link">Contact us</a>
-                <a href="get-involved.html" class="text-link">Get involved</a>
+                <button class="footer-header linksInfo">Links</button>
+                <button class="footer-header linksInfoClose">Links</button>
+                <div class="linksSection">
+                    <a href="contact.html" class="text-link">Contact us</a>
+                    <a href="get-involved.html" class="text-link">Get involved</a>
+                </div>
             </div>
-            <div>
+            <div class="newsletter-container">
                 <p class="footer-header">Sign up for our newsletter</p>
                 <div class="newsletter">
                     <label for="newsletter">Your email adress</label>
@@ -129,5 +139,6 @@
         </div>
         <p class="copyright">Copyright &copy; 2021 Community Science Museum</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

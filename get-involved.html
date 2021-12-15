@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="main-header">
-            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="The Community Science Museum's logo showing three atoms circulate around each other. The logo links back to homepage" class="logo"></a>
             <div class="menu">
                 <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
@@ -36,12 +36,12 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="top-page">
         <div class="gi-header">
             <h1>Get involved</h1>
         </div>
         <section class="gi-content">
-            <div class="gi-spesifics">
+            <div class="gi-spesifics" id="text-container">
                 <h2>Support</h2>
                 <p>There are various ways you can support the museum.</p>
 
@@ -49,9 +49,9 @@
                     
                 <p>You can also support us by donating items of interest to the museum’s collections. 
                 If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.</p>
-                <a href="contact.html" class="cta red">Contact</a>
+                <a href="contact.html" class="cta red" id="position-button">Contact</a>
             </div>
-            <div class="gi-spesifics solid-bg">
+            <div class="gi-spesifics solid-bg" id="text-container">
                 <h2>Internships</h2>
                 <p>Are you interested in working in a museum?</p>
 
@@ -59,9 +59,9 @@
                     
                 <p>Well you could be just the right person to enjoy an internship at the museum.
                 You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</p>
-                <a href="#" class="text-link">Learn more</a>
+                <a href="#" class="text-link" id="position-button">Learn more</a>
             </div>
-            <div class="gi-spesifics">
+            <div class="gi-spesifics" id="text-container">
                 <h2>Volunteer</h2>
                 <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy.</p>
 
@@ -69,33 +69,42 @@
                     
                 <p>You can help volunteer in a number of different spheres. 
                 Please contact us if you’d like to find out more about how you can get involved.</p>
-                <a href="contact.html" class="cta red">Contact</a>
+                <a href="contact.html" class="cta red" id="position-button">Contact</a>
             </div>
         </section>
     </main>
     <footer>
         <div class="footer-details">
             <div>
-                <p class="footer-header">Location</p>
-                <p>Museumsgata 1</p>
-                <p>3010 Sandefjord</p>
+                <button class="footer-header locationInfo">Location</button>
+                <button class="footer-header locationInfoClose">Location</button>
+                <div class="locationSection">
+                    <p>Museumsgata 1</p>
+                    <p>3010 Sandefjord</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Opening hours</p>
-                <p>Monday: Closed</p>
-                <p>Tuesday: 10:00 – 16:00</p>
-                <p>Wednesday: 10:00 – 16:00</p>
-                <p>Thursday: 10:00 – 16:00</p>
-                <p>Friday: 10:00 – 19:00</p>
-                <p>Saturday: 9:00 – 16:00</p>
-                <p>Sunday: 9:00 – 13:00</p>
+                <button class="footer-header hoursInfo">Opening hours</button>
+                <button class="footer-header hoursInfoClose">Opening hours</button>
+                <div class="hoursSection">
+                    <p>Monday: Closed</p>
+                    <p>Tuesday: 10:00 – 16:00</p>
+                    <p>Wednesday: 10:00 – 16:00</p>
+                    <p>Thursday: 10:00 – 16:00</p>
+                    <p>Friday: 10:00 – 19:00</p>
+                    <p>Saturday: 9:00 – 16:00</p>
+                    <p>Sunday: 9:00 – 13:00</p>
+                </div>
             </div>
             <div>
-                <p class="footer-header">Links</p>
-                <a href="contact.html" class="text-link">Contact us</a>
-                <a href="get-involved.html" class="text-link">Get involved</a>
+                <button class="footer-header linksInfo">Links</button>
+                <button class="footer-header linksInfoClose">Links</button>
+                <div class="linksSection">
+                    <a href="contact.html" class="text-link">Contact us</a>
+                    <a href="get-involved.html" class="text-link">Get involved</a>
+                </div>
             </div>
-            <div>
+            <div class="newsletter-container">
                 <p class="footer-header">Sign up for our newsletter</p>
                 <div class="newsletter">
                     <label for="newsletter">Your email adress</label>
@@ -106,5 +115,6 @@
         </div>
         <p class="copyright">Copyright &copy; 2021 Community Science Museum</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
